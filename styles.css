@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: url(christopher-sardegna-iRyGmA_no2Q-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-color: #171311;
+  height: 98svh;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.header {
+  padding: 1rem;
+  background-color: #131313;
+}
+.container {
+  height: 70%;
+  width: 50%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  background-color: #363024;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 70%;
+  padding: 30px 70px;
+  border-radius: 3px;
+}
+.input-area {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+input {
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+}
+button {
+  width: 70%;
+  margin: 0px auto;
+  padding: 5px;
+  font-size: 23px;
+  background-color: rgb(48, 118, 22);
+  border: none;
+  border-radius: 6px;
+}
+.details-area {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  border-top: 6px double;
+  border-bottom: 6px double;
+  padding: 30px 10%;
+}
+.span {
+  width: 50%;
+  text-align: right;
+  margin: 0px auto;
+}
